@@ -57,7 +57,7 @@ const Home = () => {
             onDrop={(e) => handleDrop(e)}>
             <CardHeader>
               <CardTitle>Upload Images</CardTitle>
-              <CardDescription className='text-md sm:text-xl'>We'll predict wether you've cancer or not...</CardDescription>
+              <CardDescription className='text-md sm:text-xl'>We&apos;ll predict wether you&apos;ve cancer or not...</CardDescription>
             </CardHeader>
             <CardContent>
               <div className='flex flex-col justify-center items-center gap-5 py-4 min-h-[300px] sm:min-h-[550px] px-5 border-dashed border-4 rounded-2xl'>
