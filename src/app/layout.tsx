@@ -18,7 +18,7 @@ export default function RootLayout({ children }: Readonly<{
     <>
       <html lang="en" suppressHydrationWarning>
         <head />
-        <body>
+        <body className="bg-secondary">
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
