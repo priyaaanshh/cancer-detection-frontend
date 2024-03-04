@@ -49,8 +49,8 @@ const Home = () => {
     }
   }
   return (
-    <div className='flex justify-center items-center h-full px-2'>
-      <div className="flex flex-col mt-14 sm:mt-0 sm:flex-row gap-5 justify-between w-full max-w-[1440px]">
+    <div className='flex items-start sm:justify-center sm:items-center h-full px-2 mt-[70px] sm:mt-0'>
+      <div className="flex flex-col sm:flex-row gap-5 justify-between w-full max-w-[1440px] mb-10">
         <div className='flex justify-center w-full'>
           <Card className='w-full shadow'
             onDragOver={(e) => handleDragOver(e)}
